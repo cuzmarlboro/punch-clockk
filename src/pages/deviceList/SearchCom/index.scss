@@ -1,0 +1,19 @@
+.searchCom{
+    height: 11.7333vw;
+    box-shadow: 0vw 0.2667vw 0.5333vw 0vw rgba(74,89,121,0.1);
+    border-radius: 1.0667vw;
+    width: 89.3333vw;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    background: #F5F6F7;
+    .searchCom-icon{
+        width: 4vw;
+        height: 4vw;
+        margin: 0 2.1333vw;
+   }
+   .searchCom-input{
+       width: 100%;
+   }
+}
+

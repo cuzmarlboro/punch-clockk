@@ -1,0 +1,17 @@
+.HandleItem{
+    width: 13.8667vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5.3333vw;
+    .HandleItem-img{
+       height: 8.5333vw;
+       width: 8.5333vw;
+    }
+    .HandleItem-text{
+        margin-top: 1.0667vw;
+        font-size: 3.4667vw;
+        color: #2F3238;
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "punch-clock",
+  "appid": "testAppId",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
