@@ -1,0 +1,16 @@
+.deviceItem{
+    display: flex;
+    margin-bottom: 1.0667vw;
+    .deviceItem-img{
+        .image{
+             width: 37.3333vw;
+             height: 28vw;
+        }
+        margin-right: 2.1333vw;
+    }
+    .deviceItem-content{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+}

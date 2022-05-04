@@ -3,7 +3,6 @@ import { View, Picker } from '@tarojs/components'
 import './SelectCom.scss'
 
 const SelectCom = (props) => {
-    console.log(props)
     const { label, placeholder, date, onInput, disabled, range } = props
 
     return (

@@ -36,15 +36,19 @@ const request = async (url, data, mt) => {
             }
             // 登录失效
             if (res.data.code === 6000) {
-                Taro.clearStorage().then(res => {
+                Taro.clearStorage().then((res) => {
                     Taro.reLaunch({
-                        url: '/pages/index/index'
+                        url: '/pages/index/index',
                     })
                 })
             }
             // 报错
             if (res.data.code === 6001) {
                 errorToast(res.data.msg)
+            }
+            // 服务器异常
+            if (res.statusCode === 500) {
+                errorToast('系统异常')
             }
             return res.data
         }
